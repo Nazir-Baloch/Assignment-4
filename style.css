@@ -1,0 +1,91 @@
+.navbar{
+    background-color: #D32F2F !important;
+}
+.nav-link{
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.navbar-text:{
+    color: #333333;
+}
+.li:hover{
+    color: #333333
+    
+}
+.fa-shopping-cart,.fa-user-circle-o{
+    font-size: 32px !important;
+}
+.fa-truck,.fa-headphones,.fa-thumbs-o-up {
+    font-size: 50px !important;
+    margin-right: 10px;
+    color: #D32F2F;
+}
+.card1,.card2,.card3{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.card-1{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+h1{
+    color:#D32F2F ;
+}
+.NewArrivals{
+    margin-top: 50px;
+}
+.card{
+    width: 200px;
+    height:auto;
+    margin-left: 60px !important;
+    margin-bottom: 5px;
+}
+.card-text{
+    font-weight: bold;
+}
+.btn-primary{
+    width: 100%;
+    background-color:#D32F2F ;
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    color: #D32F2F;
+    margin: 20px;
+}
+.heading > h1{
+    text-shadow: 2px 2px 4px black;
+}
+.heading1{
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+}
+.info{
+    background-color: #333333;
+    margin-top: 10px;
+    color: #D32F2F;
+}
+.footer{
+    text-align: center;
+    color:#fff;
+    background-color:#D32F2F;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .card1,.card2,.card3{
+        width: 100%
+    }
+   
+  }
+  
